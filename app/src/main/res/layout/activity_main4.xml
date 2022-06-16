@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="555dp"
+        android:layout_height="846dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_2"
+        tools:layout_editor_absoluteY="-22dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="521dp"
+        android:layout_height="918dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rectangle_7"
+        tools:layout_editor_absoluteY="-65dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/status_bar2"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="129dp"
+        android:layout_height="108dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.139"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="135dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_height="33dp"
+        android:text="Smart House"
+        android:textColor="#EDE2E2"
+        android:textColorHint="#F3EBEB"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13"
+        app:layout_constraintVertical_bias="0.051"
+        tools:layout_editor_absoluteX="136dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="E-mail"
+        android:textColor="#ECE2E2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.114"
+        tools:layout_editor_absoluteX="100dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Name"
+        android:textColor="#E3D7D7"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2"
+        app:layout_constraintVertical_bias="0.514"
+        tools:layout_editor_absoluteX="100dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="192dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Password"
+        android:textColor="#EFE6E6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="100dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="33dp"
+        android:background="#29C62E"
+        android:backgroundTint="@color/teal_200"
+        android:text="New Resident"
+        android:onClick="new resident"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress4"
+        app:layout_constraintVertical_bias="0.088"
+        app:strokeColor="#1AB821"
+        tools:layout_editor_absoluteX="113dp"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="184dp"
+        android:layout_height="38dp"
+        android:backgroundTint="#2C2B2B"
+        android:text="Enter Your House"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.117"
+        tools:layout_editor_absoluteX="115dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
